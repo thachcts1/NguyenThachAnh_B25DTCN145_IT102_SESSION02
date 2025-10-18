@@ -6,10 +6,11 @@ int main() {
     		int a = 3, b = 4, c = 2;
 
 
-    double S = sqrt(pow(a, 2) + pow(b, 2)) / (c + 1) + (double)(a * b) / c - sqrt(fabs(a - b) + pow(c, 2));
+    float S = sqrt(pow(a, 2) + pow(b, 2)) / (c + 1) + (double)(a * b) / c - sqrt(fabs(a - b) + pow(c, 2));
 
-    printf("S = %.2lf\n", S);
+    printf("S = %.2f\n", S);
 
     return 0;
 }
+
 
