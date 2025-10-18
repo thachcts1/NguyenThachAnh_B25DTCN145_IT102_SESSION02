@@ -8,9 +8,10 @@ int main() {
 
     float S = sqrt(pow(a, 2) + pow(b, 2)) / (c + 1) + (double)(a * b) / c - sqrt(fabs(a - b) + pow(c, 2));
 
-    printf("S = %.2f\n", S);
+    printf("S = %.2f", S);
 
     return 0;
 }
+
 
 
